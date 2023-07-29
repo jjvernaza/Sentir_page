@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <!-- Enlace a Bootstrap (asegúrate de tener conexión a internet para cargar el archivo) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Formulario de contacto a la izquierda -->
+        <div class="col-md-6">
+            <div class="contact-form">
+                <h3>Formulario de contacto</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                               title="Ingrese un número de teléfono válido en el formato 123-456-7890">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Información de contacto a la derecha -->
+        <div class="col-md-6 contact-info" id="container_info_contacto">
+            <h3>Información de contacto:</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Principal #123, Ciudad</p>
+            <p><i class="fas fa-envelope"></i> Correo: info@sentirfisioterapia.com</p>
+            <p><i class="fas fa-phone"></i> Teléfono: +1 (123) 456-7890</p>
+        </div>
+    </div>
+</div>
+
+<!-- Enlace a los scripts de Bootstrap y Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

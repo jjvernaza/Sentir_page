@@ -1,0 +1,45 @@
+
+body {
+        /* Establece el logo como fondo */
+        background-image: url('Logo_sent.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 30%; /* Ajusta el porcentaje para controlar el tamaño */
+}
+/* Resto de estilos CSS... */
+
+.custom-img {
+    width: 100%;
+    height: 200px; /* Ajusta la altura deseada */
+    object-fit: cover;
+  }
+
+#img_fisio {
+    background-image: url(img_fisiote.jpg);
+}
+
+#img_acon_fisico {
+    background-image: url(img_acon_fisi.jpg);
+}
+
+#img_psicologia {
+    background-image: url(img_psicolo.jpg);
+}
+
+#img_natural {
+    background-image: url(img_natural.jpg);
+}
+
+#img_program_antiestres {
+    background-image: url(img_antiestres.jpg);
+}
+
+#img_clini_column {
+    background-image: url(img_columna.jpg);
+}
+
+#img_ceragem {
+    background-image: url(cerageem.jpg);
+}
+

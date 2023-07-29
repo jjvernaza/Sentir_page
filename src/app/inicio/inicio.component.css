@@ -1,0 +1,49 @@
+body {
+    background-image: url('Logo_sent.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 30%; /* Adjust the percentage to control the size */
+}
+
+
+/* Estilos para el About Section */
+.about-text {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#container_about_us {
+    margin-top: 30px;
+    margin-left:140px;
+}
+
+
+/* Estilos para el About and Mission & Vision Section */
+.about-mission-vision {
+    text-align: center;
+}
+
+.mission-vision-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mission-vision-item {
+    text-align: center;
+}
+
+#container_vision_mission {
+    margin-top: 30px;
+}
+
+/* Estilos para la sección de Ubicación */
+.location {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.location-title {
+    margin-bottom: 20px;
+}
+

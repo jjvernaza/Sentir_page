@@ -1,0 +1,10 @@
+        /* Estilo para el logo en el navbar */
+        #Logo_sentir {
+            width: 70px;
+            height: 70px;
+            margin-right: 10px;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
