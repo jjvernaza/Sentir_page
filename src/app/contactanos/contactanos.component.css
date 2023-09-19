@@ -1,32 +1,93 @@
 body {
-    background-image: url('Logo_sent.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 30%; /* Adjust the percentage to control the size */
+  background-image: url('Sentir_logotipo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 30%; /* Adjust the percentage to control the size */
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Texto más oscuro */
 }
 
 .contact-info {
-    padding-left: 30px;
+  padding-left: 30px;
 }
+
 .contact-form {
-    background-color: #f7f7f7;
-    padding: 30px;
-    border-radius: 5px;
-    margin-bottom: 80px;
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+  font-family: 'Arial', sans-serif;
+  color: #555; /* Color de texto más oscuro */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregamos una ligera sombra */
 }
+
 .contact-form h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: 'Helvetica', sans-serif; /* Cambiamos la tipografía para el título */
+  color: #222; /* Título más oscuro */
 }
+
 .contact-form .form-group label {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 .contact-form button {
-    margin-top: 10px;
+  margin-top: 10px;
+  background-color: #007bff; /* Cambiamos el color de fondo del botón */
+  color: #fff; /* Texto blanco en el botón */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Color más oscuro al hacer hover */
 }
 
 #container_info_contacto {
-    margin-top: 150px;
-    padding-left: 70px;
+  margin-top: 150px;
+  padding-left: 70px;
 }
 
+
+/* float buttons */
+
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .btn-floating {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Agregamos una transición suave */
+  }
+  
+  .btn-floating:hover {
+    transform: scale(1.1); /* Escalamos el botón en un 10% en el hover */
+  }
+  
+  .btn-whatsapp {
+    background-color: #25d366;
+  }
+  
+  .btn-facebook {
+    background-color: #3b5998;
+  }
+  
+  .btn-instagram {
+    background-color: #790e62c4;
+  }
+  

@@ -10,6 +10,7 @@
         <!-- Enlace a Bootstrap (asegúrate de tener conexión a internet para cargar el archivo) -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw6fvo3J3XkRR8xh5+9PxhUd6Zw/TD5g6T4U8f+6rZ4ZN6OW/JlJ2ks7xlJVoL" crossorigin="anonymous"></script>
     <script src='main.js'></script>
 </head>
 <body>
@@ -18,7 +19,7 @@
     <header class="hero bg-light text-center py-5">
         <div class="container">
             <h1 class="display-4">Bienvenidos a Sentir Fisioterapia Avanzada LTDA</h1>
-            <p class="lead">Tu bienestar es nuestra prioridad</p>
+            <p class="lead">"Para sanar es necesario sentir, sin sentir es imposible comprender".</p>
             <a [routerLink]="['/servicios']" href="#" class="btn btn-primary btn-lg">Conoce nuestros servicios</a>
         </div>
     </header>
@@ -29,21 +30,130 @@
             <div class="row">
                 <div class="col-md-6" id="container_about_us">
                     <h2>Sobre Nosotros</h2>
-                    <p class="about-text">Somos profesionales holísticos comprometidos con el bienestar del ser humano y su entorno.
-                        Con una visión humana, buscamos mejorar la calidad de vida y la salud mediante el
-                        conocimiento científico y la comprensión del movimiento corporal, psicológico y social.
-                        Nos enfocamos en promover y prevenir la salud, así como en brindar evaluación, diagnóstico,
-                        recuperación y rehabilitación. Nuestro enfoque incluye un sentido social y ético, liderazgo,
-                        autonomía y creatividad en nuestra profesión, y estamos comprometidos con el desarrollo
-                        personal y profesional. Nos dedicamos a satisfacer las necesidades de atención a la comunidad
-                        caleña y del sur occidente colombiano.</p>
+                    <p class="about-text">SENTIR FISIOTERAPIA AVANZADA es una organización comprometida
+                         con el bienestar integral de las personas. Nuestro equipo de profesionales
+                          holísticos posee una amplia visión humana y está dedicado a mejorar la calidad 
+                          de vida y la salud en general.<br><br>
+
+                        Mediante el estudio científico del movimiento corporal, psicológico y social, 
+                        ofrecemos servicios de promoción, prevención, evaluación, diagnóstico, recuperación 
+                        y rehabilitación. Con un enfoque ético, social y de liderazgo, nos esforzamos por 
+                        proporcionar una atención de primer nivel a la comunidad en general. Nuestro portafolio 
+                        de servicios está diseñado para satisfacer las necesidades de cada individuo, 
+                        brindando soluciones personalizadas que promueven el desarrollo personal y profesional.
+                        
+                    </p>
+
                 </div>
                 <div class="col-md-4" id="img_about_us">
-                    <img src= "Sentir_home.jpg"  class="img-fluid">
+                    <img src= ""  class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
+    
+    <!-- Convenios Section -->
+    <section class="convenios py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h2 id="titulo_covenios">Nuestros Convenios con Aseguradoras SOAT</h2>
+                </div>
+                <div class="col-md-3 col-6 text-center" id="previsora">
+                    <div class="convenio-item" >
+                        <img src="https://acolseg.com.co/wp-content/uploads/2022/06/Previsora.png" alt="Previsora Seguros">
+                        <p>Previsora Seguros</p>
+                    </div>
+                </div> 
+            <div class="col-md-3 col-6 text-center" id="bolivar">
+                <div class="convenio-item">
+                    <img src="https://www.segurosbolivar.com/assets/img/logo.png" alt="Seguros Bolívar">
+                    <p>Seguros Bolívar</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="Estado">
+                <div class="convenio-item">
+                    <img src="https://www.ibsseguros.com/wp-content/uploads/2019/04/logo-seguros-del-estado.png" alt="Seguros del Estado S.A">
+                    <p>Seguros del Estado S.A</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="liberty">
+                <div class="convenio-item">
+                    <img src="https://seeklogo.com/images/L/liberty-seguros-logo-4958980EA6-seeklogo.com.png" alt="Liberty">
+                    <p>Liberty</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="Maphre">
+                <div class="convenio-item">
+                    <img src="https://1000marcas.net/wp-content/uploads/2019/12/Logo_Mapfre-768x385.png" alt="Maphre">
+                    <p>Maphre</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="Solidaria">
+                <div class="convenio-item">
+                    <img src="https://aseguradorasolidaria.com.co/resources/site1/General/Common/Logo-Aseguradora-Solidaria.svg" alt="Aseguradora Solidaria de Colombia">
+                    <p>Aseguradora Solidaria de Colombia</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="Mundial">
+                <div class="convenio-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Logo_mundial_seguros.png/1200px-Logo_mundial_seguros.png" alt="Seguros Mundial">
+                    <p>Seguros Mundial</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="axxa">
+                <div class="convenio-item">
+                    <img src="https://www.elempleo.com/co/sitio-empresarial/CompanySites/axa-colpatria/resources/images/logo-social.png" alt="AXA Colpatria">
+                    <p>AXA Colpatria</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="sura_seguros_logo">
+                <div class="convenio-item">
+                    <img src="https://www.vectorlogo.es/wp-content/uploads/2018/06/logo-vector-seguros-sura.jpg" alt="Sura Seguros">
+                    <p>Sura Seguros</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="equidad">
+                <div class="convenio-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Equidad_Seguros_%28Colombia%29_logo.svg/2048px-Equidad_Seguros_%28Colombia%29_logo.svg.png" alt="Equidad Seguros">
+                    <p>Equidad Seguros</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 id="titulo_otros_convenios">Otros convenios</h2>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="sura_prepagada">
+                <div class="convenio-item">
+                    <img src="https://www.vectorlogo.es/wp-content/uploads/2018/06/logo-vector-seguros-sura.jpg" alt="Sura prepagada">
+                    <p>Sura prepagada y poliza </p>
+                </div>
+            </div> 
+        <div class="col-md-3 col-6 text-center" id="Previser">
+            <div class="convenio-item">
+                <img src="https://www.previser.com.co/wp-content/uploads/2021/08/logo-jose-2-188.png" alt="Previser">
+                <p>Previser</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 text-center" id="Prevengo">
+            <div class="convenio-item">
+                <img src="https://prevengo.com.co/wp-content/uploads/2018/06/logo-300x96.png" alt="Prevengo">
+                <p>Prevengo</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 text-center" id="medi_salud">
+            <div class="convenio-item" >
+                <img src="https://i.postimg.cc/Z5NVGbSc/medi-salud-log.png" alt="Medisalud">
+                <p>Medisalud</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
 
     <!-- About and Mission & Vision Section -->
     <section class="about-mission-vision py-5">
@@ -52,22 +162,24 @@
                 <div class="col-md-9" id="container_vision_mission">
                     <div class="row">
                         <div class="col-md-6 mb-3 mission-vision-item">
-                            <h2>Misión</h2>
-                            <p>Contribuir al mejoramiento de la calidad de vida de los pacientes, mediante 
-                                la prestación de servicios de salud oportunos, seguros y humanizados, 
-                                que permitan el bienestar y la rehabilitación integral de los usuarios; 
-                                con un equipo de trabajo idóneo, competente, comprometido con la seguridad 
-                                del paciente, labor social e inclusión y su formación continua; garantizando 
-                                un tratamiento adecuado de acuerdo con las necesidades y expectativas del usuario.</p>
+                            <h2 class="mission-vision-title">Misión</h2>
+                            <p>Contribuir al mejoramiento de la calidad de vida de los pacientes,
+                                 mediante la prestación de servicios de salud oportunos, seguros y 
+                                 humanizados, que permitan el bienestar y la rehabilitación integral 
+                                 de los usuarios; con un equipo de trabajo idóneo, competente, 
+                                 comprometido con la seguridad del paciente, labor social e inclusión, 
+                                 y su formación continua; garantizando un tratamiento adecuado de acuerdo 
+                                 con las necesidades y expectativas del usuario.</p>
                         </div>
                         <div class="col-md-6 mission-vision-item">
-                            <h2>Visión</h2>
-                            <p>SENTIR FISIOTERAPIA AVANZADA  tiene proyectado en el 2026 ser una IPS líder a 
+                            <h2 class="mission-vision-title">Visión</h2>
+                            <p>SENTIR FISIOTERAPIA AVANZADA tiene proyectado para el 2026 ser una IPS líder a 
                                 nivel regional en el manejo de programas de prevención de la enfermedad y 
-                                rehabilitación integral, reconocida por la efectividad, altos estándares 
-                                de calidad, seguridad en la atención y enfoque diferencial; que contribuyan 
-                                a mejorar la calidad de vida de los usuarios mediante un proceso que garantice
-                                 efectividad, oportunidad, seguridad y confort durante su rehabilitación.</p>
+                                rehabilitación integral, reconocida por la efectividad, altos estándares de calidad, 
+                                seguridad en la atención y enfoque diferencial; que contribuyan a mejorar la calidad 
+                                de vida de los usuarios mediante un proceso que garantice efectividad, oportunidad,
+                                 seguridad y confort durante su rehabilitación.
+                                </p>
                         </div>
                     </div>
                 </div>
@@ -92,4 +204,19 @@
     <!-- Código de la sección services, no lo he modificado -->
 
 </body>
+
+<div class="floating-buttons">
+    <a href="https://api.whatsapp.com/send?phone=%2B573243691495&data=ARDRiBExteVzkgJdm1TVQ-u0MXV-_wMCQGUcmdunoiySV2iBqPuyvMkde-5gW7Q6vBI-pXEixxwe29ordzBdctY6hwKVF4xPbu2n290t-DB9M9gSvzewWOgBG8kWQNmk727QoCKxaFkKi-7AYqQMDyX0Rg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3bPqxI5BrbRWxC9Di0gIQ15TOjyTP4uXnwKJk9ALdikhOJ66IFp4ZxYkM" target="_blank" class="btn-floating btn-whatsapp" title="¿En que te podemos ayudar?">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://web.facebook.com/sentirfisioterapia" target="_blank" class="btn-floating btn-facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/sentir_fisioterapia_cali/" target="_blank" class="btn-floating btn-instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+
+  
+
 </html>

@@ -1,16 +1,49 @@
 body {
-    background-image: url('Logo_sent.png');
+    background-image: url('Sentir_logotipo.png');
+    color: #333; /* Texto más oscuro */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 30%; /* Adjust the percentage to control the size */
+    background-size: 40%; /* Adjust the percentage to control the size */
+    font-family: 'Open Sans', sans-serif;
 }
 
+  h1,h2,h3 {
+  font-family: 'Playfair Display', serif;
+}
+/* Estilos para el texto del hero */
+.hero {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+}
 
+.hero h1 {
+  color: #333; /* Texto oscuro */
+  font-size: 36px; /* Tamaño grande para el título */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #666; /* Texto un poco más claro */
+  font-size: 18px; /* Tamaño para el texto principal */
+  margin-bottom: 40px;
+}
 /* Estilos para el About Section */
+.about {
+  padding: 100px 0;
+}
+
+.about h2 {
+  font-size: 32px; /* Tamaño grande para el título */
+  margin-bottom: 20px;
+}
+
 .about-text {
     margin-top: 20px;
     text-align: justify;
+    color: #000000; /* Cambiar el color a uno más oscuro, por ejemplo, #333 */
+    font-size: 18px; /* Tamaño para el texto principal */
+    line-height: 1.5; /* Espaciado de línea para una lectura más cómoda */
 }
 
 #container_about_us {
@@ -20,17 +53,36 @@ body {
 
 
 /* Estilos para el About and Mission & Vision Section */
+#container_vision_mission {
+  margin-top: 30px;
+}
+
 .about-mission-vision {
-    text-align: center;
+    text-align: justify; /* Change from 'center' to 'justify' */
+    padding: 100px 0;
+}
+
+.mission-vision-item h2 {
+  color: #333; /* Texto oscuro */
+  font-size: 28px; /* Tamaño grande para el título */
+  margin-bottom: 20px;
+  text-align: center; /* Add this class for the title */
+}
+
+.mission-vision-item p {
+  color: #000000; /* Texto más claro */
+  font-size: 17px; /* Tamaño para el texto principal */
+  line-height: 1.6;
 }
 
 .mission-vision-container {
     display: flex;
     justify-content: center;
+    text-align: justify; /* Add this line */
 }
 
 .mission-vision-item {
-    text-align: center;
+    text-align: justify;
 }
 
 #container_vision_mission {
@@ -41,9 +93,142 @@ body {
 .location {
     margin-top: 30px;
     text-align: center;
+    padding: 100px 0;
+}
+
+.location h2 {
+  font-size: 32px; /* Tamaño grande para el título */
+  margin-bottom: 20px;
 }
 
 .location-title {
     margin-bottom: 20px;
 }
 
+/* float buttons */
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.btn-floating {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; /* Agregamos una transición suave */
+}
+
+.btn-floating:hover {
+  transform: scale(1.1); /* Escalamos el botón en un 10% en el hover */
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+}
+
+.btn-facebook {
+  background-color: #1877f2;
+}
+
+.btn-instagram {
+  background-color: #790e62c4;
+}
+
+
+#img_about_us {
+    background-image: url(Sentir_home2.jpg);
+    background-size: cover;
+}
+
+/* Estilos para la sección de convenios */
+.convenios {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+/* Estilos para la sección de convenios */
+.convenios {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+/* Estilos para los elementos de convenio */
+ #titulo_covenios {
+  margin-bottom: 30px;
+ }
+
+ #titulo_otros_convenios{
+  padding-top: 30px;
+  margin-bottom: 30px;
+ }
+.convenio-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 10px; /* Ajusta el margen según tu preferencia */
+  box-shadow: 0 0 10px rgba(17, 0, 255, 0.1);
+  text-align: center; /* Centrar contenido */
+}
+
+.convenio-item:hover {
+  transform: scale(1.05);
+}
+
+.convenio-item img {
+  max-width: 100%;
+  height: 100px; /* Ajusta la altura de la imagen */
+  object-fit: contain;
+}
+
+.convenio-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px; /* Ajusta el tamaño de la fuente */
+}
+
+/* Media query para ajustar el tamaño en pantallas pequeñas */
+@media (max-width: 768px) {
+  .convenio-item {
+      margin: 10px;
+      padding: 10px; /* Ajusta el padding para pantallas pequeñas */
+  }
+}
+/*
+#Maphre {
+  background-image: url(Maphre_log.png);
+}
+
+#previsora {
+  background-image: url(previsora_seguros_log.png);
+}
+
+#solidaria {
+  background-image: url(aseguradora_solidaria_logo.png);
+}
+
+#mundial {
+  background-image: url(seguros_mundial_logo.png);
+}
+
+#sura {
+  background-image: url(sura_seguros_logo.png);
+}
+
+#sura_prepagada {
+  background-image: url(sura_logo.png);
+}
+
+#medi_salud {
+  background-image: url(medi_salud_log.png);
+
+
+} */
